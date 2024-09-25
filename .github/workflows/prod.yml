@@ -23,4 +23,3 @@ jobs:
         run: docker build -t giunei/conta_api .
       - name: Publish image
         run: docker push giunei/conta_api
-
