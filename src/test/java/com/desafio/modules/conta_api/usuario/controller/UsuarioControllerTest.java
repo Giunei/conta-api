@@ -50,7 +50,6 @@ class UsuarioControllerTest {
                 usuarioMapper))
                 .setCustomArgumentResolvers(new PageableHandlerMethodArgumentResolver())
                 .build();
-
     }
 
     @Nested
